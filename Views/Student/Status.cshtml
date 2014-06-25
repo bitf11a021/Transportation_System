@@ -1,0 +1,18 @@
+﻿@model Transportation_System.Models.student
+
+@{
+    ViewBag.Title = "Status";
+}
+
+<h2>Status</h2>
+<label>Enter CNIC #</label>
+ @using (Html.BeginForm("statuscheck","Student",FormMethod.Post)) { 
+ 
+ @Html.TextBoxFor(n=>n.Cnic)
+     @Html.TextBoxFor(n=>n.Email)
+ 
+     <input type="submit" value="Check">
+ 
+ 
+ 
+ }

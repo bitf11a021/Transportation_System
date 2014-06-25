@@ -1,0 +1,25 @@
+﻿@model Transportation_System.Models.signup
+
+@{
+    ViewBag.Title = "Sigin";
+}
+
+<h2>User Login</h2>
+  @using (Html.BeginForm("StudentLogin", "Student", FormMethod.Post, new {enctype="multipart/form-data" }))
+            {
+                @Html.ValidationSummary(true)
+                
+
+                
+                    <label>UserName :</label>
+            
+              @Html.EditorFor(model=>model.Username)  
+            @Html.ValidationMessageFor(model=>model.Username)
+            <label>Password :</label>
+            @Html.EditorFor(model=>model.Password)
+            @Html.ValidationMessageFor(model=>model.Password)
+                <input type="submit" value="Login"/>
+                
+            }
+  <br />
+<br />

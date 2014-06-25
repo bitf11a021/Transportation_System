@@ -1,0 +1,38 @@
+﻿@model Transportation_System.Models.review
+
+@{
+    ViewBag.Title = "ReviewData";
+}
+
+<h2>Reviews</h2>
+<hr />
+<table>
+    <tr>
+        <th>
+            <label>Name</label>
+        </th>
+        <th>
+            <label>Review</label>
+        </th>
+</tr>
+
+@foreach (var item in ViewBag.X)
+{
+    <tr>
+        <td>
+            @item.reviewee
+        </td>
+        <td>
+            @item.review1
+        </td>
+        <td></td>
+                <td></td>
+        <td></td>
+
+         <td>
+            @Html.ActionLink("Delete", "DeleteReview", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

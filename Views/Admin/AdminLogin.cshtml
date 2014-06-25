@@ -1,0 +1,25 @@
+﻿@model Transportation_System.Models.admin
+
+@{
+    ViewBag.Title = "Sigin";
+}
+
+<h2>Admin Login</h2>
+  @using (Html.BeginForm("AdminLogin", "Admin", FormMethod.Post, new {enctype="multipart/form-data" }))
+            {
+                @Html.ValidationSummary(true)
+                
+
+                
+                    <label>UserName :</label>
+            
+              @Html.EditorFor(model=>model.Name)  
+            @Html.ValidationMessageFor(model=>model.Name)
+            <label>Password :</label>
+            @Html.EditorFor(model=>model.Password)
+            @Html.ValidationMessageFor(model=>model.Password)
+                <input type="submit" value="Login"/>
+                
+            }
+  <br />
+<br />

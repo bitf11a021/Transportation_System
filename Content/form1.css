@@ -1,0 +1,1265 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background: #fff;
+}
+a {
+    color: #4f6b72;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Elements Styling */
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serifr;
+    font-size: 20px;
+    color: #82a632;
+    margin: 10px 0;
+}
+input.customBtn {
+    background: url(../images/signinBtn.png) no-repeat scroll center top transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 39px;
+    outline: medium none;
+    position: relative;
+    width: 108px;
+}
+a.registerBtn {
+    background: url("../images/register-now-btn.png") no-repeat scroll center top transparent;
+    border: medium none;
+    bottom: 1em;
+    cursor: pointer;
+    display: block;
+    height: 70px;
+    left: 12em;
+    outline: medium none;
+    position: absolute;
+    text-indent: -9999em;
+    width: 289px;
+}
+a.registerBtn:hover {
+    background-position: -2px -69px;
+    left: 12em;
+}
+input.customBtn:hover {
+    background: url("../images/signinBtn.png") no-repeat scroll center -39px transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 39px;
+    position: relative;
+    width: 108px;
+}
+/* Dengue Main Strcutre */
+
+#wrapper {
+    width:100%;
+    height:100%;
+}
+.header-wrap {
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #777;
+    height: 120px;
+    width: 100%;
+}
+.required-span{
+    color: red;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+.header-content {
+    background: url("../images/top-header-illustration.jpg") no-repeat scroll 0 0 #FFFFFF;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+.logo {
+    background: url("../images/ltc-logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 103px;
+    margin: 15px 0 0 37px;
+    width: 330px;
+}
+.logo a {
+    display: block;
+    height:68px;
+    margin:10px;
+    text-indent: -9999em;
+}
+img.busoImg {
+    left: 35em;
+    position: absolute;
+    top: 1em;
+}
+img.punjabLogo {
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+#main-nav-wrap {
+    width:100%;
+    height: 91px;
+    margin: 0;
+    z-index:99;
+    position: relative;
+}
+.main-nav {
+    background: url("../images/ribbon-nav-bg.png") no-repeat scroll 0 0 transparent;
+    height: 79px;
+    margin: 5px auto 0;
+    width: 1000px;
+}
+.main-nav ul {
+    float: left;
+    height: 37px;
+    margin: 22px 0 0 73px;
+}
+.main-nav ul li {
+    float: left;
+    margin: 0 44px;
+}
+
+.main-nav ul li.selected a {
+    color: #aeca87;
+    cursor: default;
+}
+/*menu-styling ] on / hover states [*/
+.main-nav ul li a {
+    color: #CCCCCC;
+    display: block;
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main-nav ul li a:hover {
+    color: #aeca87;
+    display: block;
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+}
+.mid-wrapper {
+    padding: 10px 0 0px;
+    width: 100%;
+}
+.mid-content {
+    border-top: medium none;
+    margin: -31px auto 20px;
+    overflow: hidden;
+    width: 880px;
+}
+.content-text {
+    float: left;
+    margin: 20px 23px;
+    width: 834px;
+}
+.content-text li{
+    list-style-type: disc;
+    line-height: 26px;
+    font-size: 14px;
+    margin-left: 52px;
+}
+.content-text p {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.mid-content h2 {
+    background-color: #333333;
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0 0 -10px;
+    padding: 0 20px 0 76px;
+    text-align: right;
+    text-transform: capitalize;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.featured-sec {
+    background: url("../images/diagnoal-pat.png") repeat scroll 0 0 #AFCB88;
+    height: 485px;
+    position: relative;
+    width: 880px;
+}
+.registration-sec {
+    background: url("../images/diagnoal-pat.png") repeat scroll 0 0 #AFCB88;
+    float: left;
+    margin-top: -10px;
+    overflow: hidden;
+    padding-top: 25px;
+    position: relative;
+    width: 880px;
+}
+.about-us {
+    background: url("../images/diagnoal-pat.png") repeat scroll 0 0 #AFCB88;
+    float: left;
+    margin-top: -10px;
+    overflow: hidden;
+    padding-top: 50px;
+    position: relative;
+    width: 880px;
+
+}
+form#user-registration {
+    float: left;
+    margin: 22px 142px;
+    width: 596px;
+}
+.panes form#user-registration {
+    float: left;
+    margin: 22px 148px;
+    width: 594px;
+}
+
+/*form#admin-login, form#admin-register {
+          float: left;
+  margin: 22px 179px;
+  width: 596px;
+        
+}*/
+form#admin-login, form#admin-register {
+    float: left;
+    margin: 22px 107px;
+    width: 666px;
+}
+.clear {
+    clear: both;
+
+}
+
+.mid-content-inner {
+    width: 990px;
+    padding:10px;
+    margin: 20px auto 10px auto;
+    background:#FFFFFF;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:3px solid #dedede;
+}
+#footer-wrapper {
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 3px solid #777;
+    width: 100%;
+}
+.footer-content {
+    background: url("../images/footer-bg.jpg") no-repeat scroll 0 0 transparent;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+    width: 880px;
+}
+.copyright {
+    color: #444444;
+    float: left;
+    margin: 0;
+}
+.social {
+    float: right;
+    margin: 10px 0px 0 0;
+}
+.social ul {
+    float: left;
+}
+.social ul li {
+    float: left;
+}
+.social a {
+    background: url("../images/social-sprite.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 38px;
+    width: 38px;
+    text-indent: -999em;
+    cursor: pointer;
+}
+.social a.facebook {
+    background-position: left top;
+}
+.social a.twitter {
+    background-position: right top;
+}
+.social a.facebook:hover {
+    background-position: left -38px;
+}
+.social a.twitter:hover {
+    background-position: right -38px;
+}
+/* Home Login Section Styling */
+
+.login-section {
+    margin: 0 auto;
+    text-align: center;
+    width: 434px;
+}
+.login-section img.punjab-logo {
+    margin: 20px 0;
+}
+.box {
+    width:370px;
+    overflow:hidden;
+    padding:30px;
+    background:#fff;
+    border:1px solid #d5d5d5;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 0 20px rgba(3, 44, 52, .22);
+    -moz-box-shadow: 0 0 20px rgba(3, 44, 52, .22);
+    -webkit-box-shadow: 0 0 20px rgba(3, 44, 52, .22);
+}
+.box h2 {
+    color:#292929;
+    font-size:25px;
+    margin:0;
+    padding:0 0 10px 0;
+    font-weight:bold;
+    outline:none;
+}
+.box h3 {
+    color:#7f7f7f;
+    font-size:17px;
+    line-height:20px;
+    margin:0;
+    padding:0;
+    font-weight:normal;
+    outline:none;
+}
+.form {
+    margin:0;
+    padding:0;
+}
+.form fieldset {
+    border:none;
+    padding: 10px 0 0;
+    margin:0;
+}
+.form .row {
+    line-height: 33px;
+    margin-bottom: 14px;
+    position: relative;
+}
+.form .row input[type="text"], .form .row input[type="password"] {
+    height:33px;
+    line-height:33px;
+    border:1px solid #c5c5c5;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .1) inset;
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .1) inset;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .1) inset;
+    outline: none;
+}
+.form .row input[type="text"]:focus, .form .row input[type="text"]:hover, .form .row input[type="password"]:focus, .form .row input[type="password"]:hover {
+    border:1px solid #b8d564;
+    box-shadow: 0 0 5px #b8d564, 0 2px 2px rgba(0, 0, 0, .1) inset;
+    -moz-box-shadow: 0 0 5px #b8d564, 0 2px 2px rgba(0, 0, 0, .1) inset;
+    -webkit-box-shadow: 0 0 5px #b8d564, 0 2px 2px rgba(0, 0, 0, .1) inset;
+}
+.form .row input.login {
+    background: url(../images/input_login.png) left center no-repeat #f5f5f5;
+    width:318px;
+    padding: 1px 5px 1px 45px;
+}
+.form .row input.password {
+    background:url(../images/input_password.png) left center no-repeat #f5f5f5;
+    width:193px;
+    padding: 1px 130px 1px 45px;
+}
+.form .row input.error {
+    border:1px solid #eb9393;
+    box-shadow: 0 0 5px #f7c4c4;
+    -moz-box-shadow: 0 0 5px #f7c4c4;
+    -webkit-box-shadow: 0 0 5px #f7c4c4;
+    background-color:#fce4e4;
+}
+.form .row a.forgot {
+    position:absolute;
+    top:2px;
+    right:10px;
+    color:#909090;
+    font-size:12px;
+    text-shadow:1px 1px 1px #fff;
+}
+.form .row a.forgot:hover {
+    color:#6e6e6e;
+}
+.form .row input[type="checkbox"] {
+    display:block;
+    float:left;
+    margin: 9px 6px 9px 2px;
+}
+.form .row label {
+    color: #999999;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+input.customBtn {
+    background: url("../images/signinBtn.png") no-repeat center top transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 39px;
+    position: relative;
+    width: 108px;
+    outline: none;
+}
+input.customBtn:hover {
+    background: url("../images/signinBtn.png") no-repeat center -39px transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 39px;
+    position: relative;
+    width: 108px;
+}
+#floatMenu-rt {
+    position: fixed;
+    right: -8px;
+    top: 175px;
+}
+#floatMenu-lft {
+    left: 0;
+    position: fixed;
+    top: 175px;
+}
+a.guideBtn {
+    background:url(../images/user-guide-btn.png) no-repeat;
+    display: block;
+    width: 44px;
+    height: 160px;
+    text-indent: -9999em;
+}
+a.guideBtn:hover {
+    background-position: -49px top;
+}
+a.adminBtn {
+    background: url("../images/adminBtn.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 168px;
+    text-indent: -9999em;
+    width: 44px;
+}
+a.adminBtn:hover {
+    background-position: -50px top;
+}
+a.logoutBtn {
+    background: url("../images/logoutBtn.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 118px;
+    text-indent: -9999em;
+    width: 44px;
+}
+a.logoutBtn:hover {
+    background-position: -48px top;
+}
+.mh-menu li a span:nth-child(2) {
+    /*...*/
+    transition: color 0.2s linear;
+}
+/*Activities Page Styling */
+#map_canvas {
+    border: 2px solid #ebebeb;
+}
+.map-section {
+    clear: both;
+    float: left;
+    width: 990px;
+}
+#control {
+    float: left;
+    margin: 0 0 20px;
+    text-align: left;
+    width: 990px;
+}
+.rowElem {
+    float: left;
+    margin: 5px 15px 5px 0;
+    width: 278px;
+}
+.rowElemTextarea{
+    float: left;
+    margin: 5px 15px 5px 0;
+
+}
+.rowElemTextarea textarea{
+    float: left;
+    margin: 0 15px 0 0;
+}
+.rowElemBtns {
+    float: left;
+    margin: 19px 0 0;
+    width: 217px;
+}
+.rowElemSlideshow {
+    float: left;
+    width: 185px;
+    margin:0 10px 0 0;
+}
+.rowElemBtnsSlideshow {
+    float: left;
+    margin: 19px 0 0;
+}
+.rowElemDatepickers {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 181px;
+}
+.rowElem label, .rowElemDatepickers label, .rowElemSlideshow label, .rowElemTextarea label, .rowElemSearch label {
+    color: #333;
+    float: left;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    text-transform: capitalize;
+}
+.rowElem select, .rowElemDatepickers select {
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1) inset;
+    float: left;
+    padding: 7px;
+    width: 225px;
+    text-transform: capitalize;
+}
+.rowElem input, .rowElemDatepickers input, .rowElemSlideshow input {
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    line-height: 21px;
+    height: 21px;
+    margin: 0 2px;
+    outline: medium none;
+    padding:0px 9px;
+    width: 266px;
+}
+.rowElemSearch {
+    float: left;
+    margin: 10px 0;
+    width: 211px;
+}
+.rowElemSearchBtn {
+    float: left;
+    margin: 30px 0 0 13px;
+    width: 111px;
+}
+.rowElemSearch input {
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    line-height: 21px;
+    height: 21px;
+    margin: 0 2px;
+    outline: medium none;
+    padding:0px 9px;
+    width: 200px;
+}
+.ui-datepicker-trigger {
+    float: left;
+    margin: 7px 0 0 -27px;
+}
+.rowElemBtns input.customBtnFilter {
+    background: url("../images/filterBtn.png") no-repeat scroll center top transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 39px;
+    margin: 0;
+    outline: medium none;
+    position: relative;
+    width: 108px;
+}
+#filters input.customBtnFilter:hover {
+    background: url("../images/filterBtn.png") no-repeat scroll center -39px transparent;
+}
+.rowElemBtns input.customBtnReser {
+    background: url("../images/resetBtn.png") no-repeat scroll center top transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 39px;
+    margin: 0;
+    position: relative;
+    width: 108px;
+}
+#filters input.customBtnReser:hover {
+    background: url("../images/resetBtn.png") no-repeat scroll center -39px transparent;
+}
+/*Map Pop Dashboard */
+#dashboard-popup {
+    overflow: hidden;
+    width: 637px!important;
+}
+.firstHeading {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serifr;
+    font-size: 15px;
+    margin-top: 14px;
+    padding: 8px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.monitor-listing {
+    float: left;
+    margin: 10px 0;
+    width: 637px;
+}
+.monitor-listing ul {
+    float: left;
+}
+.monitor-listing span {
+    color: #fff;
+    margin:0 5px;
+}
+.monitor-listing li {
+    background: url("../images/activity-sprite.jpg") no-repeat scroll 0 0 #333333;
+    color: #A6C55C;
+    margin: 2px 10px 0 0;
+    padding: 10px 0px 10px 38px;
+    width: 139px;
+}
+.monitor-listing li.department {
+    background-position: 5px 3px;
+}
+.monitor-listing li.name {
+    background-position: 5px -32px;
+}
+.monitor-listing li.activity {
+    background-position: 5px -69px;
+}
+.monitor-listing li.entry-date {
+    background-position: 5px -104px;
+}
+.monitor-listing li.entry-time {
+    background-position: 5px -140px;
+}
+.picture-data {
+    float: left;
+    width: 446px;
+}
+.picture-before, .picture-after {
+    float: left;
+    margin: 0 10px 0 0;
+    position: relative;
+    width: 213px;
+}
+.picture-before img, .picture-after img {
+    border: 3px solid #888888;
+    float: left;
+    width: 100%;
+}
+.picture-after-meta, .picture-before-meta {
+    background-color: #333333;
+    bottom: 3px;
+    color: #A6C55C;
+    font-size: 13px;
+    left: 3px;
+    padding: 10px 0 10px 10px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 95.4%;
+}
+a.zoomIcon {
+    background: url("../images/zoomico.jpg") no-repeat scroll 0 0 transparent;
+    bottom: 5px;
+    cursor: pointer;
+    display: block;
+    height: 27px;
+    position: absolute;
+    right: 0;
+    width: 29px;
+}
+
+.admin-dashboard {
+    margin: 33px auto;
+    width: 470px;
+}
+.admin-dashboard a {
+    background: url(../images/admin-dashboard-btns-sprite.png) no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 98px;
+    width: 470px;
+    text-indent: -999em;
+    cursor: pointer;
+}
+.admin-dashboard a.add-mobile {
+    background-position: left top;
+}
+.admin-dashboard a.add-user {
+    background-position: left -98px;
+    height:110px;
+}
+.admin-dashboard a.add-activity {
+    background-position: left -208px;
+}
+.admin-dashboard a.add-mobile:hover {
+    background-position: -476px top;
+}
+.admin-dashboard a.add-user:hover {
+    background-position: -476px -98px;
+}
+.admin-dashboard a.add-activity:hover {
+    background-position: -476px -208px;
+}
+#user-input-data {
+    margin: 10px auto;
+    width: 800px;
+}
+.mid-content-inner h2 {
+    font-size: 21px;
+    margin: 10px auto 0 101px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 900px;
+}
+#user-input-data .rowElem {
+    width: 248px;
+}
+#user-input-data .rowElem input {
+    width: 227px;
+}
+.rowElemParent {
+    float: left;
+    margin: 6px 0;
+}
+#user-input-data .rowElemBtns {
+    float: right;
+    margin: 5px 32px 0 0;
+    width: 217px;
+}
+input.customBtnSubmit {
+    background: url(../images/submutBtn.png) no-repeat center top transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 42px;
+    position: relative;
+    width: 108px;
+    outline: none;
+}
+input.customBtnSubmit:hover {
+    background: url(../images/submutBtn.png) no-repeat center -41px transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 42px;
+    position: relative;
+    width: 108px;
+}
+input.customBtnCancel {
+    background: url(../images/cancelBtn.png) no-repeat center 1px transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 42px;
+    position: relative;
+    width: 108px;
+    outline: none;
+}
+input.customBtnCancel:hover {
+    background:url(../images/cancelBtn.png) no-repeat center -40px transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 42px;
+    position: relative;
+    width: 108px;
+}
+input.createslideshowBtn {
+    background: url("../images/createslideshowBtn.png") no-repeat scroll left top transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 40px;
+    outline: medium none;
+    position: relative;
+    width: 170px;
+}
+input.createslideshowBtn:hover {
+    background: url("../images/createslideshowBtn.png") no-repeat scroll left -41px transparent;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 40px;
+    position: relative;
+    width: 170px;
+}
+.myTableWrapper {
+    width: 800px;
+    height: 500px;
+}
+.height250 {
+    height: 250px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.height400 {
+    height: 400px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.fancyTable td, .fancyTable th {
+    /* appearance */
+    border: 1px solid #778899;
+    /* size */
+    padding: 5px;
+}
+.fancyTable {
+    /* text */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.fancyTable tbody tr td {
+    /* appearance */
+    background-color: #eef2f9;
+    background-image: -moz-linear-gradient(  top,  rgba(255,255,255,0.4) 0%,  rgba(255,255,255,0.2) 50%,  rgba(255,255,255,0.1) 51%,  rgba(255,255,255,0.0) 100%);
+    background-image: -webkit-gradient(  linear, left top, left bottom,  color-stop(0%, rgba(255,255,255,0.4)),  color-stop(50%, rgba(255,255,255,0.2)),  color-stop(51%, rgba(255,255,255,0.1)),  color-stop(100%, rgba(255,255,255,0.0)));
+    /* text */
+    color: #262c31;
+    font-size: 11px;
+}
+.fancyTable tbody tr.odd td {
+    /* appearance */
+    background-color: #d6e0ef;
+    background-image: -moz-linear-gradient(  top,  rgba(255,255,255,0.4) 0%,  rgba(255,255,255,0.2) 50%,  rgba(255,255,255,0.1) 51%,  rgba(255,255,255,0.0) 100%);
+    background-image: -webkit-gradient(  linear, left top, left bottom,  color-stop(0%, rgba(255,255,255,0.4)),  color-stop(50%, rgba(255,255,255,0.2)),  color-stop(51%, rgba(255,255,255,0.1)),  color-stop(100%, rgba(255,255,255,0.0)));
+}
+.fancyTable thead tr th, .fancyTable thead tr td, .fancyTable tfoot tr th, .fancyTable tfoot tr td {
+    /* appearance */
+    background-color: #8ca9cf;
+    background-image: -moz-linear-gradient(  top,  rgba(255,255,255,0.4) 0%,  rgba(255,255,255,0.2) 50%,  rgba(255,255,255,0.1) 51%,  rgba(255,255,255,0.0) 100%);
+    background-image: -webkit-gradient(  linear, left top, left bottom,  color-stop(0%, rgba(255,255,255,0.4)),  color-stop(50%, rgba(255,255,255,0.2)),  color-stop(51%, rgba(255,255,255,0.1)),  color-stop(100%, rgba(255,255,255,0.0)));
+    /* text */
+    color: #121517;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #e8ebee;
+}
+.generic {
+    float: right;
+    margin:20px;
+}
+.generic-2 {
+    float: right;
+    margin: 0 120px 0 0;
+}
+.slidwshow-list-dashboard p {
+    margin: 10px auto 0 101px;
+}
+ul.slideshow-listing {
+    float: none;
+    margin: 15px auto;
+    width: 792px;
+}
+ul.slideshow-listing li {
+    background: url("../images/slideshowIco.png") no-repeat scroll 0 0 transparent;
+    border-bottom: 1px dotted #999;
+    float: left;
+    height: 27px;
+    line-height: 19px;
+    margin: 0 26px 6px 0;
+    width: 369px;
+}
+ul.slideshow-listing li a {
+    color: #999;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 33px;
+    text-transform: capitalize;
+}
+ul.slideshow-listing li a:hover {
+    display: block;
+    color: #abcb62;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+a.goback {
+    background: url("../images/back.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 18px;
+    margin: 10px 0;
+    padding-left: 21px;
+    text-transform: uppercase;
+}
+a.goback:hover {
+    color: #abcb62;
+}
+
+
+
+
+/*Tabs*/
+.record-dashboard {
+    float: left;
+    margin: 20px;
+    width: 839px;
+}
+/* root element for tabs  */
+ul.tabs {
+    height: 31px;
+    list-style: none outside none;
+    margin: 0 0 0 18px !important;
+    padding: 0;
+}
+
+/* single tab */
+ul.tabs li {
+    float:left;
+    text-indent:0;
+    padding:0;
+    margin:0 !important;
+    list-style-image:none !important;
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a {
+    background: url("../images/blue.png") no-repeat scroll -420px 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 1px;
+    width: 134px;
+}
+
+ul.tabs a:active {
+    outline:none;
+}
+
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover {
+    background-position: -420px -31px;
+    color:#fff;
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+    background-position: -420px -62px;
+    cursor:default !important;
+    color:#000 !important;
+}
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+ul.tabs a.s { background-position: -553px 0; width:81px; }
+ul.tabs a.s:hover { background-position: -553px -31px; }
+ul.tabs a.s.current  { background-position: -553px -62px; }
+
+/* width 2 */
+ul.tabs a.l { background-position: -248px -0px; width:174px; }
+ul.tabs a.l:hover { background-position: -248px -31px; }
+ul.tabs a.l.current { background-position: -248px -62px; }
+
+
+/* width 3 */
+ul.tabs a.xl { background-position: 0 -0px; width:248px; }
+ul.tabs a.xl:hover { background-position: 0 -31px; }
+ul.tabs a.xl.current { background-position: 0 -62px; }
+
+
+
+/* tab pane styling */
+.panes {
+    border: 2px solid #FFFFFF;
+    float: left;
+    width: 100%;
+}
+.panes div {
+
+    float: left;
+
+}
+
+
+/* Table styling */
+#listTbl {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 839px;
+}
+#origin-destination-tbl td {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: medium none;
+    border-right: medium none;
+    color: #333333;
+    font-weight: bold;
+    padding: 4px 9px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#origin-destination-tbl td div.selector select {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    min-width: 225px;
+}
+#origin-destination-tbl td div.selector span {
+    color: #666666;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 192px;
+}
+
+#origin-destination-tbl div.selector {
+    font-size: 12px;
+    width: 233px;
+}
+
+
+thead.floatingHeader tr{
+    position: relative;
+}
+caption {
+    padding: 0 0 5px 0;
+    width: 700px;	 
+    text-align: right;
+}
+
+th {
+    background: url("../images/bg_header.jpg") no-repeat scroll 0 0 #9dba5e;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 12px 6px 13px 12px;
+    text-align: left;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+
+th.nobg {
+    border-top: 0;
+    border-left: 0;
+    background: none;
+}
+
+td {
+    background: #fff;
+    padding: 6px 6px 6px 12px;
+    color: #4f6b72;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+td.alt {
+    background: #F5FAFA;
+    color: #797268;
+}
+
+tr.odd td {
+    background-color: #E5EDD5;
+    border-top: 0 none;
+}
+tr.odd:hover td {
+    background-color: #eff3e8;
+    border-top: 0 none;
+}
+
+tr.even:hover td {
+    background-color: #eff3e8;
+    border-top: 0 none;
+}
+
+tr.even td {
+    background-color: #DAE7BC;
+    border-top: 0 none;
+    color: #797268;
+}
+tr.even td img, tr.odd td img{
+    float: none;
+}
+
+a.pdf {
+    float: left;
+    margin: 2px;
+}
+a.pdf img {
+    float: left !important;
+    margin: -3px 5px 0 0;
+}
+
+.web_dialog_overlay
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    z-index: 101;
+    display: none;
+}
+.web_dialog h4{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.web_dialog a{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.web_dialog
+{
+    display: none;
+    position: fixed;
+    width: 380px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -100px;
+    background-color: #ffffff;
+    border: 2px solid #ACC986;
+    padding: 0px;
+    z-index: 102;
+    font-family: Verdana;
+    font-size: 10pt;
+}
+.web_dialog_title {
+    background-color: #ACC986;
+    border-bottom: 2px solid #FFFFFF;
+    color: White;
+    font-weight: bold;
+    padding: 5px;
+}
+.web_dialog_title a
+{
+    color: White;
+    text-decoration: none;
+}
+.align_right
+{
+    text-align: right;
+}
+a.logoutBtn {
+    background: url("../images/logoutBtn.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 118px;
+    text-indent: -9999em;
+    width: 44px;
+}
+a.logoutBtn:hover {
+    background-position: -48px top;
+}
+#floatMenu-rt {
+    position: fixed;
+    right: -8px;
+    top: 300px;
+}
+div.error {
+    color: red;
+    line-height: 20px;
+    margin: 0 5px;
+}
+span.note {
+    background: url("../images/note.png") no-repeat scroll 0 0 transparent;
+    color: red;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 21px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+#map {
+    border: 2px solid #333333;
+    float: left;
+    height: 222px;
+    width: 400px;
+}
+.content-lft {
+    color: #333;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 24px 0 0;
+    width: 403px;
+}
+.content-lft h4 {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 3px;
+}

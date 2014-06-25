@@ -1,0 +1,90 @@
+﻿@model Transportation_System.Models.student
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student Form Data</h2>
+
+<p>
+</p>
+<table>
+    <tr>
+        <th>
+            <label><b>Name</b></label>
+        </th>
+        <th>
+            <label><b>Father Name</b></label>
+        </th>
+        <th>
+                        <label><b>CNIC #</b></label>
+
+        </th>
+        <th>
+                        <label><b>Phone #</b></label>
+        </th>
+        <th>
+                        <label><b>Institution</b></label>
+        </th>
+        <th>
+                        <label><b>Session Start</b></label>
+        </th>
+        <th>
+                        <label><b>Session End</b></label>
+        </th>
+        <th>
+                        <label><b>Roll #</b></label>
+        </th>
+        <th>
+                        <label><b>Card Type</b></label>
+        </th>
+        <th>
+                        <label><b>Email</b></label>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in ViewBag.X)
+{
+    <tr>
+        <td>
+            @item.Name
+        </td>
+        <td>
+            @item.Father_Name
+        </td>
+        <td>
+            @item.Cnic      
+
+        </td>
+        <td>
+            @item.Phone_num        
+
+        </td>
+        <td>
+            @item.Institution
+        </td>
+        <td>
+            @item.Session_start
+        </td>
+        <td>
+            @item.Session_end
+        </td>
+        <td>
+            @item.Roll_num
+        </td>
+        <td>
+            @item.Card_type
+        </td>
+        <td>
+            @item.Email
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+            @Html.ActionLink("Delete", "DeleteStudent", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

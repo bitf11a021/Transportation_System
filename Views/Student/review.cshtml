@@ -1,0 +1,19 @@
+﻿@model Transportation_System.Models.review
+
+@{
+    ViewBag.Title = "review";
+}
+
+<h2>Tell us about what you think </h2>
+<hr />
+<br />
+@using (Html.BeginForm("reviews","Student",FormMethod.Post)) {
+        @Html.ValidationSummary(true)
+
+@Html.TextAreaFor((model=>model.review1),10,80,null)
+@Html.ValidationMessageFor(model => model.review1)
+
+    <br />
+<input type="submit" value="Post" />
+<input type="reset" value="Reset" />
+  }
